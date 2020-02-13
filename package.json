@@ -1,0 +1,23 @@
+{
+    "name": "webworker-demo",
+    "version": "1.0.0",
+    "description": "a short demo of a webworker",
+    "main": "index.js",
+    "scripts": {
+        "dev": "browser-sync start --server --files 'index.html', 'src/*.js'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JonatanPaalsson/webworker-demo.git"
+    },
+    "author": "Jonatan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JonatanPaalsson/webworker-demo/issues"
+    },
+    "homepage": "https://github.com/JonatanPaalsson/webworker-demo#readme",
+    "dependencies": {
+        "browser-sync": "^2.26.7",
+        "prettier": "^1.19.1"
+    }
+}
